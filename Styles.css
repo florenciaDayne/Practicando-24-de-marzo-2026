@@ -32,17 +32,14 @@ body {
 }
 
 /*imgen */
-.imagen {
-    width: 300px;
-    border: 5px soli #333;
-    border-radius: 20 px;
-    margin: 10px;
-}
+.imagen:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+} 
 /* GIF */
-.gif {
-    width: 200px;   
-    border-radius: 50%;
-    margin: 10px;
+.gif:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 /* Tabla */
 tabla {
